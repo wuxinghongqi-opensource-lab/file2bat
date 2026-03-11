@@ -1,8 +1,6 @@
 # file2bat
 # file convert to bat ,if you replace lI0o,you can print it
 
-# 文件转BAT字符串工具
-# File to BAT String Converter
 
 ## 工具简介 | Tool Introduction
 一款轻量级脚本工具，可将任意文件（支持拖拽多个文件/文件夹）转换为BAT批处理可识别的Base64字符串格式。该工具输出的原始字符串可直接嵌入批处理脚本使用，无需额外处理；仅当需要将字符串打印至A4纸张进行纸质化保存时，需手动替换Base64中0/O、1/l/I等易混淆字符（避免OCR识别错误）。
