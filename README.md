@@ -25,6 +25,19 @@ BAT scripts support direct printing of output content, and the converted BAT str
 - 📝 输出字符串格式规范，兼顾直接使用与纸质保存场景。
 - 📝 Output string format is standardized, compatible with both direct use and paper storage scenarios.
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.1.0
+## 本工具已从 Base64 改版为 Base16 (Hex) 模式，依靠系统原生 certutil 完成编解码，十六进制文本整洁换行、无多余字符，支持直接查看与打印，双击 BAT 即可无损还原所有文件。
+## This tool has been upgraded from Base64 to Base16 (Hex). It uses Windows native certutil for encoding and decoding. The hex data is neatly wrapped without extra characters, can be viewed and printed directly. Double-click the BAT file to restore all files losslessly.
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Base64易混淆字符替换清单（仅打印时使用） | Base64 Easily Confused Characters Replacement List (Only for Printing)
 仅在需要打印字符串到A4纸时，手动替换以下易混淆字符（日常使用无需替换）：
 Only manually replace the following easily confused characters when printing the string to A4 paper (no replacement required for daily use):
