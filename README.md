@@ -1,13 +1,13 @@
 # file2bat
-# file convert to bat ,if you replace lI0o,you can print it
+# file convert to bat
 
 
 ## 工具简介 | Tool Introduction
-一款轻量级脚本工具，可将任意文件（支持拖拽多个文件/文件夹）转换为BAT批处理可识别的Base64字符串格式。该工具输出的原始字符串可直接嵌入批处理脚本使用，无需额外处理；仅当需要将字符串打印至A4纸张进行纸质化保存时，需手动替换Base64中0/O、1/l/I等易混淆字符（避免OCR识别错误）。
+一款轻量级脚本工具，可将任意文件（支持拖拽多个文件/文件夹）转换为BAT批处理可识别的Base16/Base64字符串格式。该工具输出的原始字符串可直接嵌入批处理脚本使用，无需额外处理；
 
 BAT脚本支持直接打印输出内容，且转换后的BAT字符串可完整还原任意原文件，由此实现了**用纸保存任意文件**的独特方式。打印保存时推荐优先选择小文件（如短字符串、TXT、DOCX、PPTX等），这类文件转换后的字符串长度适配单张A4纸，不仅节省纸张，更能大幅提升OCR识别的准确率。
 
-A lightweight script tool that converts any file (supports dragging multiple files/folders) into a Base64 string format recognizable by BAT batch processing. The original string output by the tool can be directly embedded into batch scripts for use without additional processing; only when it is necessary to print the string to A4 paper for paper-based storage, it is required to manually replace easily confused characters (such as 0/O, 1/l/I) in Base64 (to avoid OCR recognition errors).
+A lightweight script tool that converts any file (supports dragging multiple files/folders) into a Base16/Base64 string format recognizable by BAT batch processing. The original string output by the tool can be directly embedded into batch scripts for use without additional processing; only when it is necessary to print the string to A4 paper for paper-based storage.
 
 BAT scripts support direct printing of output content, and the converted BAT strings can fully restore any original file, thus realizing a unique way of **saving any file with paper**. For paper storage via printing, it is recommended to prioritize small files (such as short strings, TXT, DOCX, PPTX, etc.), as the converted string length of such files fits a single A4 sheet, which not only saves paper but also greatly improves the accuracy of OCR recognition.
 
