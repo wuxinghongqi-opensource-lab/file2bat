@@ -28,9 +28,9 @@ BAT scripts support direct printing of output content, and the converted BAT str
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 v1.1.0
-本工具已从 Base64 改版为 Base16 (Hex) 模式，依靠系统原生 certutil 完成编解码，十六进制文本整洁换行、无多余字符，支持直接查看与打印，双击 BAT 即可无损还原所有文件。
 
-This tool has been upgraded from Base64 to Base16 (Hex). It uses Windows native certutil for encoding and decoding. The hex data is neatly wrapped without extra characters, can be viewed and printed directly. Double-click the BAT file to restore all files losslessly.
+- 本工具已从 Base64 改版为 Base16 (Hex) 模式，依靠系统原生 certutil 完成编解码，十六进制文本整洁换行、无多余字符，支持直接查看与打印，双击 BAT 即可无损还原所有文件。
+- This tool has been upgraded from Base64 to Base16 (Hex). It uses Windows native certutil for encoding and decoding. The hex data is neatly wrapped without extra characters, can be viewed and printed directly. Double-click the BAT file to restore all files losslessly.
 
 
 
