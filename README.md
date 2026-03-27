@@ -40,8 +40,8 @@ BAT scripts support direct printing of output content, and the converted BAT str
 # v1.0.0
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Base64易混淆字符替换清单（仅打印时使用） | Base64 Easily Confused Characters Replacement List (Only for Printing)
-仅在需要打印字符串到A4纸时，手动替换以下易混淆字符（日常使用无需替换）：
-Only manually replace the following easily confused characters when printing the string to A4 paper (no replacement required for daily use):
+- 仅在需要打印字符串到A4纸时，手动替换以下易混淆字符（日常使用无需替换）：
+- Only manually replace the following easily confused characters when printing the string to A4 paper (no replacement required for daily use):
 
 | 原始Base64字符 | 建议替换为 | 替换说明 |
 |----------------|------------|----------|
